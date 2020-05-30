@@ -48,6 +48,10 @@ def over?(board)
   won?(board) || full?(board) && draw?(board)
 end 
 
+def winner(board)
+  if won?(board) == "X"
+    "X won!"
+end 
 
 
 
