@@ -39,7 +39,7 @@ end
 def full?(board)
   full_board = []
   incomplete_board = " "
-  full_board.all? do |i|
+  !full_board.all? do |i|
     i == "X" || i == "O"
     
   end
