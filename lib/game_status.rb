@@ -52,6 +52,7 @@ def winner(board)
   win_combination = win?(board)
   if win_combination != nil 
     win_location = win_combination[0]
+    
 end 
 
 
