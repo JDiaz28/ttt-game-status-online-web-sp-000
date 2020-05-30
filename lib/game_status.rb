@@ -40,7 +40,9 @@ def full?(board)
   board.none? { |i| i == " " }
 end 
 
-
+def draw?(board)
+  board.full? { |i| i == 
+end 
 
 
 
