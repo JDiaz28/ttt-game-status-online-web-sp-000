@@ -41,7 +41,7 @@ def full?(board)
 end 
 
 def draw?(board)
-  board.full? { |i| i == "X" }
+  full?(board) && !won?(board)
 end 
 
 
