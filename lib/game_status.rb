@@ -49,7 +49,8 @@ def over?(board)
 end 
 
 def winner(board)
-  board.detect 
+  win_combination = win?(board)
+  if 
 end 
 
 
