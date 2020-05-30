@@ -49,7 +49,7 @@ def over?(board)
 end 
 
 def winner(board)
-  board.each { |won| won == "X" || won == "O" }
+  
 end 
 
 
