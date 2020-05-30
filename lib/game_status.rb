@@ -50,7 +50,8 @@ end
 
 def winner(board)
   win_combination = win?(board)
-  if win_combination
+  if win_combination != nil 
+    
 end 
 
 
