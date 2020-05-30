@@ -36,4 +36,14 @@ def won?(board)
   end
 end 
 
+def full?(board)
+  full_board.all? 
+end 
+
+
+
+
+
+
+
 
